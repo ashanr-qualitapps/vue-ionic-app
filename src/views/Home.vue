@@ -11,16 +11,8 @@
   </ion-page>
 </template>
 
-<script>
-import { defineComponent } from 'vue';
+<script setup lang="ts">
 import { CountryList } from '../dist/my-library.es.js'; // Import the shared component
-
-export default defineComponent({
-  name: 'Home',
-  components: {
-    CountryList
-  }
-});
 </script>
 
 <style scoped>
